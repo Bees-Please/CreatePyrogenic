@@ -17,6 +17,9 @@ public class ModItems {
     public static final RegistryObject<Item> BORAX = ITEMS.register("borax",
             () -> new Item(new Item.Properties().tab(ModItemGroup.CREATE_PYROGENIC_GROUP)));
 
+    public static final RegistryObject<Item> CRUSHED_BORAX = ITEMS.register("crushed_borax",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.CREATE_PYROGENIC_GROUP)));
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }

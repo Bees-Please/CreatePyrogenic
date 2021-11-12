@@ -1,5 +1,6 @@
 {
   "item.createpyrogenic.borax": "Borax",
+  "item.createpyrogenic.crushed_borax": "Crushed Borax",
   "block.createpyrogenic.borax_ore": "Boron Rich Stone",
   "itemGroup.createpyrogenic": "Create: Pyrogenic"
 }
